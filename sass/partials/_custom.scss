@@ -1,0 +1,23 @@
+$font-family-sans-serif: "Open sans", sans-serif;
+
+
+$primary: #c32c72;
+
+.header-container {
+    display: flex;
+}
+
+.nav-link {
+    font-family: "Archivo Narrow", sans-serif;
+    text-transform: uppercase;
+}
+
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: #8d8d8d !important;
+}
+
+.navbar-light .navbar-nav .active > .nav-link {
+    color: $primary !important;
+}
