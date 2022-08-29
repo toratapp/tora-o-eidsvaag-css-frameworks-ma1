@@ -1,23 +1,50 @@
 $font-family-sans-serif: "Open sans", sans-serif;
 
-
 $primary: #c32c72;
+$secondary: #8d8d8d;
+$light: #f4f3ee;
+$headings-color: #463f3a;
+$border-radius-lg: 0.8rem;
+
+body {
+    background-color: #e5e5e5 !important;
+}
 
 .header-container {
     display: flex;
 }
 
+.navbar-brand {
+    font-size: 2.3rem !important;
+}
+
+.navbar-light .navbar-toggler {
+ border: none;
+}
+
+.navbar-nav {
+    padding-top: 9px;
+    padding-bottom: 40px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: $secondary !important;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: $primary !important;
+}
+
 .nav-link {
     font-family: "Archivo Narrow", sans-serif;
     text-transform: uppercase;
+    font-size: 0.93rem;
 }
 
-
-
-.navbar-light .navbar-nav .nav-link {
-    color: #8d8d8d !important;
+h1 {
+    font-size: 2.2rem !important;
 }
 
-.navbar-light .navbar-nav .active > .nav-link {
-    color: $primary !important;
+.border-primary, .border-white {
+    border-width: 3px !important;
 }
