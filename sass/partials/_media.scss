@@ -1,0 +1,22 @@
+@media (min-width: 992px) {
+    .navbar-nav {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .navbar-collapse  {
+        justify-content:end;
+    }
+
+    .nav-link {
+        font-size: 1.1rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .navbar {
+        max-width: 1140px;
+        padding: 0.3rem 0px !important;
+    }
+
+}

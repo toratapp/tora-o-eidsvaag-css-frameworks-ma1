@@ -14,12 +14,20 @@ body {
     display: flex;
 }
 
+.navbar {
+    padding: 0.3rem 24px !important;
+}
+
 .navbar-brand {
     font-size: 2.3rem !important;
 }
 
 .navbar-light .navbar-toggler {
- border: none;
+    border: none;
+}
+
+.navbar-toggler {
+    padding: 0 !important;
 }
 
 .navbar-nav {
@@ -41,10 +49,29 @@ body {
     font-size: 0.93rem;
 }
 
+.main {
+    margin-bottom: 181px;
+}
+
 h1 {
     font-size: 2.2rem !important;
 }
 
 .border-primary, .border-white {
     border-width: 3px !important;
+}
+
+.footer__wrapper {
+    padding: 0 24px;
+}
+
+.footer__email, .footer__copyright {
+    display: block;
+    color: $secondary;
+    font-size: 0.75rem;
+}
+
+.footer__copyright {
+    margin-top: 0;
+    margin-bottom: 0;
 }
