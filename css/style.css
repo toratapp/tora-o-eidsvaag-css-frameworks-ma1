@@ -86,9 +86,15 @@ h1 {
 }
 
 @media (min-width: 1200px) {
+  .navbar, .footer__wrapper {
+    max-width: 1100px;
+    margin: auto;
+  }
   .navbar {
-    max-width: 1140px;
     padding: 0.3rem 0px !important;
+  }
+  .footer__wrapper {
+    padding: 0 0;
   }
 }
 
