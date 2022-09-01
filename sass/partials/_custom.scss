@@ -6,8 +6,18 @@ $light: #f4f3ee;
 $headings-color: #463f3a;
 $border-radius-lg: 0.8rem;
 
+html, body {
+    height: 100%;
+}
+
 body {
     background-color: #e5e5e5 !important;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper {
+    flex: 1 0 auto;
 }
 
 .header-container {
@@ -49,6 +59,11 @@ body {
     font-size: 0.93rem;
 }
 
+.page-heading-1 {
+    margin-top: 110px;
+    margin-bottom: 10px;
+}
+
 .main {
     margin-bottom: 181px;
 }
@@ -59,6 +74,10 @@ h1 {
 
 .border-primary, .border-white {
     border-width: 3px !important;
+}
+
+.footer {
+    flex-shrink: 0;
 }
 
 .footer__wrapper {

@@ -11,6 +11,11 @@
     .nav-link {
         font-size: 1.1rem;
     }
+
+    .page-heading-1 {
+        margin-top: 130px;
+        margin-bottom: 40px;
+    }
 }
 
 @media (min-width: 1200px) {
@@ -26,5 +31,4 @@
     .footer__wrapper {
         padding: 0 0;
     }
-
 }
